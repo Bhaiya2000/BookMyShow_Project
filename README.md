@@ -28,7 +28,7 @@ The Movie Booking System is a backend application for booking a movie show at a 
 4. Test the Sign Up feature
    - You can create DTOs for testing as: In the 2nd and 3rd line change the Email and Password, run the application and see in the "users_table" table created in the Database. You will see a new User with the given Email and Password getting added.
    - SignUpRequestDto signUpRequestDto = new SignUpRequestDto();
-   - signUpRequestDto.setEmail("ajaz@gmail.com");
+   - signUpRequestDto.setEmail("anandku.shuklasatna@gmail.com");
    - signUpRequestDto.setPassword("password");
    - SignUpResponseDto response = userController.signUp(signUpRequestDto);
    - System.out.println(response.getResponseStatus());
